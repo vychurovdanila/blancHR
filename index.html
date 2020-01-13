@@ -1,12 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    zfrgrg
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>HR blanc</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css?ver=1578927770">
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+	</head>
+	<body>
+		<div class="w-container">
+			<div>
+				<h1>Вакансия: Junior Frontend Developer</h1>
+			</div>
+			<div class="div-block-3">
+				<div class="div-block">
+					<img src="images/face.jpg" width="250" height="250">
+				</div>
+				<div class="div-block-2">
+					<p>Имя: Данила</p><a href="https://github.com/vychurovdanila/blancHR" target="_blank" class="link">Ссылка на репозиторий в GitHub</a>
+					<p>Опыт работы: без опыта</p>
+				</div>
+			</div>
+			<div class="div-block-4">
+				<p class="p">Дата собеседования:  </p>
+				<input type="date" id="start" name="trip-start" value="2020-01-13"  min="2020-01-01" max="2021-12-31">
+			</div>
+			<div class="div-block-4">
+				<div class="w-form">
+					<form id="wf-form-hr" name="wf-form-hr" data-name="hr" method="post" action="http://index.html"><label for="name" class="field-label">Уровень английского:</label><label class="radio w-radio"><input type="radio" data-name="langlevel" id="Плохо" name="langlevel" value="Плохо" class="w-form-formradioinput w-radio-input"><span for="Плохо" class="w-form-label">Плохо</span></label><label class="radio w-radio"><input type="radio" data-name="langlevel" id="Средне" name="langlevel" value="Средне" class="w-form-formradioinput w-radio-input"><span for="Средне" class="w-form-label">Средне</span></label><label class="radio w-radio"><input type="radio" data-name="langlevel" id="Хорошо" name="langlevel" value="Хорошо" required="" class="w-form-formradioinput w-radio-input"><span for="Хорошо" class="w-form-label">Хорошо</span></label><label class="radio w-radio"><input type="radio" data-name="langlevel" id="Отлично" name="langlevel" value="Отлично" class="w-form-formradioinput w-radio-input"><span for="Отлично" class="w-form-label">Отлично</span></label><label for="email" class="field-label">Ключевые навыки:</label>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScript</li>
+							<li>...</li>
+						</ul>
+						<input type="text" class="skillinput w-input" maxlength="256" name="Skill" data-name="Skill" placeholder="...введите навык" id="Skill" required="">
+						<a href="#" class="skillbutton w-button">Добавить в список</a>
+						<label for="email" class="field-label">Коммуникабельность:</label>
+						<select id="field" name="field" class="select-field w-select">
+							<option value="Пенек">Пенек...</option>
+							<option value="Рыба">Рыба</option>
+							<option value="Нормальный">Нормальный</option>
+							<option value="Болтушка">Болтушка</option>
+						</select>
+						<label for="email" class="field-label">Подходит по критериям:</label>
+						<label class="w-checkbox checkbox"><input type="checkbox" id="Знание английского" data-name="Знание английского" class="w-checkbox-input"><span for="Знание английского" class="w-form-label">Знание английского</span></label>
+						<label class="w-checkbox checkbox"><input type="checkbox" id="Оклад" data-name="Оклад" class="w-checkbox-input"><span for="Оклад" class="w-form-label">Оклад</span></label>
+						<label class="w-checkbox checkbox"><input type="checkbox" id="Навыки" data-name="Навыки" class="w-checkbox-input"><span for="Навыки" class="w-form-label">Навыки</span></label>
+						<label class="w-checkbox checkbox"><input type="checkbox" id="Свой человек" data-name="Свой человек" class="w-checkbox-input"><span for="Свой человек" class="w-form-label">Свой человек</span></label>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
